@@ -1,9 +1,9 @@
 {
   "name": "isusableobject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "check for things that can be used like objects",
   "repository": "https://github.com/fractaltech/isUsableObject",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && babel src/ --out-dir lib/",
