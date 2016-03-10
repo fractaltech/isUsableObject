@@ -2,6 +2,7 @@
   "name": "isusableobject",
   "version": "0.1.0",
   "description": "check for things that can be used like objects",
+  "repository": "https://github.com/fractaltech/isUsableObject",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
