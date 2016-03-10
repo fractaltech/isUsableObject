@@ -1,4 +1,4 @@
-import {
+const {
   isObject,
   isArray,
   isFunction,
@@ -7,11 +7,13 @@ import {
   isString,
   isElement,
   isDate
-} from 'lodash';
+} = require('lodash');
 
-export default function isUsableObject(val) {
+function isUsableObject(val) {
   return isObject(val) && !(
     isArray(val) || isFunction(val) || isRegExp(val) || isNumber(val) || isString(val) ||
     isElement(val) || isDate(val)
   );
 }
+
+module.exports = isUsableObject;
