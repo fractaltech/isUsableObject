@@ -1,6 +1,6 @@
 {
   "name": "isusableobject",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "check for things that can be used like objects",
   "repository": "https://github.com/fractaltech/isUsableObject",
   "main": "lib/index.js",
